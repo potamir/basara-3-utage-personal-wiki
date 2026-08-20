@@ -60,7 +60,6 @@
   <a href="#results">Results</a>
   <a href="#weapons">Weapons</a>
   <a href="#accessories">Accessories</a>
-  <a href="#items">Items</a>
   <a href="#terms">Game Terms</a>
   <a href="#utage">Utage Mode</a>
   <a href="#difficulty">Difficulty</a>
@@ -199,6 +198,66 @@
 <tr><td class="jp-text">鑑定</td><td class="romaji-text">Kantei</td><td class="en-text">Appraise</td><td>Identify unknown items</td></tr>
 <tr><td class="jp-text">買取</td><td class="romaji-text">Kaitori</td><td class="en-text">Buyback</td><td>Buy back sold items</td></tr>
 </table>
+
+<h3>Shop Types (店舗一覧)</h3>
+<div class="grid">
+  <div class="card"><div class="icon-placeholder">⚔️</div><div class="info"><span class="jp">武器屋</span><span class="romaji">Bukiya</span><div class="en">Weapon Shop</div><div class="desc">Sells weapons for all playable characters. Each character has a unique weapon type. Weapons range from basic to legendary grades with increasing stats and elemental properties.</div></div></div>
+  <div class="card"><div class="icon-placeholder">🛡️</div><div class="info"><span class="jp">防具屋</span><span class="romaji">Bōguya</span><div class="en">Armor Shop</div><div class="desc">Sells armor and body equipment. Armor pieces provide defensive stats and resistance to elemental/status effects. Higher-tier armor unlocks at story progression milestones.</div></div></div>
+  <div class="card"><div class="icon-placeholder">📦</div><div class="info"><span class="jp">雑貨屋</span><span class="romaji">Zakkaya</span><div class="en">General Store</div><div class="desc">Sells consumable items, accessories, and talismans. The primary source for recovery items, battle consumables, and status-curing remedies. Also handles buyback of sold items.</div></div></div>
+  <div class="card"><div class="icon-placeholder">🔨</div><div class="info"><span class="jp">鍛冶屋</span><span class="romaji">Kajiya</span><div class="en">Blacksmith</div><div class="desc">Forges, upgrades, and modifies equipment. Can strengthen weapons via synthesis, dismantle gear for materials, and appraise unidentified equipment. Essential for end-game optimization.</div></div></div>
+</div>
+
+<h3>Blacksmith Operations (鍛冶屋の機能)</h3>
+<div class="grid">
+  <div class="card"><div class="icon-placeholder">⬆️</div><div class="info"><span class="jp">強化</span><span class="romaji">Kyōka</span><div class="en">Upgrade / Enhance</div><div class="desc">Spend gold and materials to increase a weapon's attack power and unlock additional parameter slots. Each upgrade level raises base stats incrementally.</div><div class="effect">Requires: Gold + Materials · Max level varies by weapon grade</div></div></div>
+  <div class="card"><div class="icon-placeholder">🔀</div><div class="info"><span class="jp">合成</span><span class="romaji">Gōsei</span><div class="en">Synthesis / Fusion</div><div class="desc">Fuse a base weapon with a material weapon to transfer parameters and bonuses. The material weapon is consumed in the process. Allows stacking desirable effects onto a single weapon.</div><div class="effect">Material weapon is destroyed · Parameters transfer to base</div></div></div>
+  <div class="card"><div class="icon-placeholder">⛏️</div><div class="info"><span class="jp">分解</span><span class="romaji">Bunkai</span><div class="en">Dismantle</div><div class="desc">Break down unwanted weapons and equipment into raw materials. Higher-grade gear yields rarer materials. Dismantled materials are used for upgrades and synthesis.</div><div class="effect">Item is destroyed · Yields materials based on item grade</div></div></div>
+  <div class="card"><div class="icon-placeholder">🔍</div><div class="info"><span class="jp">鑑定</span><span class="romaji">Kantei</span><div class="en">Appraise</div><div class="desc">Identify unknown or sealed equipment to reveal its hidden stats and effects. Unidentified gear found in battle must be appraised before use or sale.</div><div class="effect">Reveals hidden stats · Required for sealed equipment</div></div></div>
+  <div class="card"><div class="icon-placeholder">💰</div><div class="info"><span class="jp">買取</span><span class="romaji">Kaitori</span><div class="en">Buyback</div><div class="desc">Recover recently sold items for their original sale price. Available only at the General Store. Items are only retrievable within the current shop session.</div><div class="effect">Session-limited · Pays original sale price to recover</div></div></div>
+</div>
+
+<h3>General Store Items (雑貨屋の商品一覧)</h3>
+<div class="note">Consumable items sold at the General Store (雑貨屋). Used during battle prep or in-battle via the item slot. All items are single-use and consumed upon activation.</div>
+
+<h3>Recovery Items (回復アイテム)</h3>
+<div class="grid">
+  <div class="card"><div class="icon-placeholder">💊</div><div class="info"><span class="jp">回復薬</span><span class="romaji">Kaifukuyaku</span><div class="en">Recovery Medicine</div><div class="desc">Restores a moderate amount of HP when used in battle.</div><div class="effect">HP Recovery (Medium) · Sold at General Store</div></div></div>
+  <div class="card"><div class="icon-placeholder">💊</div><div class="info"><span class="jp">大回復薬</span><span class="romaji">Daikaifukuyaku</span><div class="en">Greater Recovery</div><div class="desc">Restores a large amount of HP when used in battle.</div><div class="effect">HP Recovery (Large) · Sold at General Store</div></div></div>
+  <div class="card"><div class="icon-placeholder">🧪</div><div class="info"><span class="jp">特効薬</span><span class="romaji">Tokkōyaku</span><div class="en">Special Medicine</div><div class="desc">Fully restores all HP when used in battle.</div><div class="effect">Full HP Recovery · Rare item</div></div></div>
+  <div class="card"><div class="icon-placeholder">⚡</div><div class="info"><span class="jp">バサラ回復薬</span><span class="romaji">Basara Kaifukuyaku</span><div class="en">Basara Restorative</div><div class="desc">Fills the Basara gauge, allowing immediate use of a Basara Attack.</div><div class="effect">Full Basara Gauge Fill · Sold at General Store</div></div></div>
+</div>
+
+<h3>Status Cure Items (状態異常回復)</h3>
+<div class="grid">
+  <div class="card"><div class="icon-placeholder">🧪</div><div class="info"><span class="jp">毒消し</span><span class="romaji">Dokukeshi</span><div class="en">Antidote</div><div class="desc">Cures the poison status ailment when used in battle.</div><div class="effect">Cures: Poison · Sold at General Store</div></div></div>
+  <div class="card"><div class="icon-placeholder">👁️</div><div class="info"><span class="jp">目薬</span><span class="romaji">Megusuri</span><div class="en">Eye Drops</div><div class="desc">Cures the blindness status ailment when used in battle.</div><div class="effect">Cures: Blindness · Sold at General Store</div></div></div>
+  <div class="card"><div class="icon-placeholder">💉</div><div class="info"><span class="jp">麻酔消し</span><span class="romaji">Masuishomeshi</span><div class="en">Painkiller</div><div class="desc">Cures stun and paralysis status ailments when used in battle.</div><div class="effect">Cures: Stun / Paralysis · Sold at General Store</div></div></div>
+  <div class="card"><div class="icon-placeholder">🔓</div><div class="info"><span class="jp">封印消し</span><span class="romaji">Fūinshomeshi</span><div class="en">Seal Remover</div><div class="desc">Cures the seal status ailment, restoring access to skills and super moves.</div><div class="effect">Cures: Seal · Sold at General Store</div></div></div>
+</div>
+
+<h3>Talisman & Buff Items (札・強化アイテム)</h3>
+<div class="grid">
+  <div class="card"><div class="icon-placeholder">📜</div><div class="info"><span class="jp">飯綺の札</span><span class="romaji">Izuna no Fuda</span><div class="en">Izuna Talisman</div><div class="desc">Revives a fallen ally officer with partial HP restored.</div><div class="effect">Revive Ally · 50% HP Recovery · Rare item</div></div></div>
+  <div class="card"><div class="icon-placeholder">⚔️</div><div class="info"><span class="jp">戦神の護符</span><span class="romaji">Ikushin no Gofu</span><div class="en">War God's Talisman</div><div class="desc">Temporarily boosts attack and defense stats for the active officer.</div><div class="effect">Temp: Attack & Defense Up · Duration: 30s</div></div></div>
+  <div class="card"><div class="icon-placeholder">👹</div><div class="info"><span class="jp">修羅の魂</span><span class="romaji">Shura no Tamashii</span><div class="en">Asura Soul</div><div class="desc">Grants temporary invincibility to the active officer for a limited time.</div><div class="effect">Temp: Invincibility · Duration: 15s</div></div></div>
+</div>
+
+<h3>Growth Items (成長アイテム)</h3>
+<div class="grid">
+  <div class="card"><div class="icon-placeholder">🏺</div><div class="info"><span class="jp">魂の器</span><span class="romaji">Tamashii no Utsuwa</span><div class="en">Soul Vessel</div><div class="desc">Instantly grants a large amount of experience points to the active officer.</div><div class="effect">Instant: Large EXP Gain · Consumed on use</div></div></div>
+  <div class="card"><div class="icon-placeholder">🏅</div><div class="info"><span class="jp">武勲の証</span><span class="romaji">Bukun no Akashi</span><div class="en">Merit Token</div><div class="desc">Instantly grants merit points, used for unlocking character-specific content.</div><div class="effect">Instant: Merit Points Gain · Consumed on use</div></div></div>
+</div>
+
+<h3>Shopping Flow (買い物の流れ)</h3>
+<div class="note">
+<strong>Typical Shopping Flow:</strong>
+<div class="menu-item"><span class="arrow">→</span> Enter shop from Battle Prep menu (出陣準備)</div>
+<div class="menu-item"><span class="arrow">→</span> Select shop type (武器屋 / 防具屋 / 雑貨屋 / 鍛冶屋)</div>
+<div class="menu-item"><span class="arrow">→</span> Browse items — press 購入 (Buy) to purchase</div>
+<div class="menu-item"><span class="arrow">→</span> Check 所持金 (Gold) to confirm you can afford the 値段 (Price)</div>
+<div class="menu-item"><span class="arrow">→</span> For equipment: visit 鍛冶屋 (Blacksmith) for 強化 (Upgrade) or 合成 (Synthesis)</div>
+<div class="menu-item"><span class="arrow">→</span> Unwanted gear: 分解 (Dismantle) for materials or 売却 (Sell) for gold</div>
+</div>
 </div>
 
 <div class="section" id="hud">
@@ -714,25 +773,6 @@
 </div>
 </div>
 
-<div class="section" id="items">
-<h2>📦 Items (アイテム)</h2>
-<table>
-<tr><th>Japanese</th><th>Romaji</th><th>English</th><th>Notes</th></tr>
-<tr><td class="jp-text">回復薬</td><td class="romaji-text">Kaifukuyaku</td><td class="en-text">Recovery Medicine</td><td>Restores HP</td></tr>
-<tr><td class="jp-text">大回復薬</td><td class="romaji-text">Daikaifukuyaku</td><td class="en-text">Greater Recovery</td><td>Restores more HP</td></tr>
-<tr><td class="jp-text">特効薬</td><td class="romaji-text">Tokkōyaku</td><td class="en-text">Special Medicine</td><td>Full HP restore</td></tr>
-<tr><td class="jp-text">バサラ回復薬</td><td class="romaji-text">Basara Kaifukuyaku</td><td class="en-text">Basara Restorative</td><td>Fills Basara gauge</td></tr>
-<tr><td class="jp-text">毒消し</td><td class="romaji-text">Dokukeshi</td><td class="en-text">Antidote</td><td>Cures poison</td></tr>
-<tr><td class="jp-text">目薬</td><td class="romaji-text">Megusuri</td><td class="en-text">Eye Drops</td><td>Cures blindness</td></tr>
-<tr><td class="jp-text">麻酔消し</td><td class="romaji-text">Masuishomeshi</td><td class="en-text">Painkiller</td><td>Cures stun/paralysis</td></tr>
-<tr><td class="jp-text">封印消し</td><td class="romaji-text">Fūinshomeshi</td><td class="en-text">Seal Remover</td><td>Cures seal status</td></tr>
-<tr><td class="jp-text">飯綺の札</td><td class="romaji-text">Izuna no Fuda</td><td class="en-text">Izuna Talisman</td><td>Revive fallen ally</td></tr>
-<tr><td class="jp-text">戦神の護符</td><td class="romaji-text">Ikushin no Gofu</td><td class="en-text">War God's Talisman</td><td>Temp attack/defense boost</td></tr>
-<tr><td class="jp-text">修羅の魂</td><td class="romaji-text">Shura no Tamashii</td><td class="en-text">Asura Soul</td><td>Temp invincibility</td></tr>
-<tr><td class="jp-text">魂の器</td><td class="romaji-text">Tamashii no Utsuwa</td><td class="en-text">Soul Vessel</td><td>Gain EXP instantly</td></tr>
-<tr><td class="jp-text">武勲の証</td><td class="romaji-text">Bukun no Akashi</td><td class="en-text">Merit Token</td><td>Gain merit points</td></tr>
-</table>
-</div>
 
 <div class="section" id="terms">
 <h2>📖 Game Terms (用語集)</h2>
